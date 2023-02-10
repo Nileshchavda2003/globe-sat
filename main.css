@@ -1,0 +1,16 @@
+.navbar-nav{
+    display: inline-flex;
+}
+.first_p
+{
+    color: crimson;
+    align-self: right;
+    align-self: flex-end;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap:inherit;
+  
+}
