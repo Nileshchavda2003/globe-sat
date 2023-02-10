@@ -7,10 +7,23 @@
     align-self: right;
     align-self: flex-end;
 }
+#Blog
+{
+    align-self: center;
+}
 
 
 .container{
     display: flex;
     flex-wrap:inherit;
   
+}
+footer{
+
+    background-color: rgb(21, 21, 30);
+    color: aliceblue;
+}
+footer_a:link{
+    color: aliceblue;
+    
 }
