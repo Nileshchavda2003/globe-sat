@@ -1,25 +1,77 @@
+body{
+    display: center;
+    content: inherit;
+}
 .navbar-nav{
+    display: center;
+    padding-top: 20px;
     display: flex;
-    flex-direction: row;
-    display: flex;
+    flex-direction:row;
+    display:flex-end;
     
+}
+#First_Por
+{   display: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+#FIRST_photo
+{
+    height: 300px;
+    width: 400px;
+    display: center;
+}
+.First_Par{
+    margin-top: 10%;
+    display: center;
+
+}
+#firstphoto
+{
+    display: center;
 }
 .first_p
 {
-    /* color: crimson; */
+    
     align-self: right;
     align-self: flex-end;
 }
-#Blog
-{
+.Blog_photo
+{  
+    border-radius: 10px;   
+    margin: 10px;
     align-self: center;
 }
+ .thumbnail{
+    align-items: center;
+
+ }
+ /* content on photo */
+/* #firstphoto{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+ }
+ */
+#bottom-left {
+    position: absolute;
+  
+    border: 50px;
+    bottom: 8px;
+    left: 16px;
+    padding: 20px;
+    color: rgb(248, 250, 252);
+    font-weight:bolder;
+    text-align: center;
+  } 
 
 
 .container{
     display: flex;
     flex-wrap:inherit;
-  
+    margin-left: 5%;
+    margin-right: 5%;
 }
 footer{
 
@@ -36,4 +88,40 @@ footer_a:link{
     position: absolute;
     bottom: 8px;
     left: 16px;
+  }     
+  /* centeral three images */
+  #threeimg{
+    border-color: crimson;
+    display:inline-flex;
+    flex-direction: row;
+    justify-items: flex-end;
+
   }
+  #t1{
+    border-radius: 50px;
+    margin: 20%;
+  }
+  #container2{
+    position: relative;
+    font-family: Arial;
+  }
+  
+  #text-block2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+#t1 {
+    margin-right: 30%;
+}
+#t2 {
+    margin-left: 50%;
+}
+#t3 {
+    margin-left: 50%;
+}
